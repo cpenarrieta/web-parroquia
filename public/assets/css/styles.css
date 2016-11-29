@@ -249,7 +249,7 @@ header nav li:last-child {
 }
 
 .features .grid li {
-  padding: 0 30px;
+  padding: 0 30px 30px 30px;
   flex-basis: 33%;
   text-align: center;
 }
@@ -270,6 +270,10 @@ header nav li:last-child {
   margin: 0;
 }
 
+.features .grid li .matrimonio-requisito {
+  padding: 0;
+}
+
 @media (max-width: 1000px) {
   .features .grid li{
     flex-basis: 70%;
@@ -277,6 +281,10 @@ header nav li:last-child {
   }
   .features .grid li:last-child{
     margin-bottom: 0;
+  }
+  .features .grid li .matrimonio-requisito {
+    padding: 0;
+    margin: 0;
   }
 }
 
@@ -322,6 +330,65 @@ header nav li:last-child {
   }
 }
 
+.comunidades {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.comunidades > div {
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  border: 1px solid #e9e9e9;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.comunidades > div:hover {
+  opacity: 0.8;
+}
+
+.type-1 {
+  background-color: #EC7063;
+}
+
+.type-2 {
+  background-color: #A569BD;
+}
+
+.type-3 {
+  background-color: #5499C7;
+}
+
+.type-4 {
+  background-color: #45B39D;
+}
+
+.type-5 {
+  background-color: #F5B041;
+}
+
+.type-6 {
+  background-color: #DC7633;
+}
+
+.type-7 {
+  background-color: #AAB7B8;
+}
+
+.type-8 {
+  background-color: #1F618D;
+}
+
 /*---------------------
  	Contact Section
 ---------------------*/
@@ -349,6 +416,49 @@ header nav li:last-child {
 
 .contact form .btn {
   padding: 18px 42px;
+}
+
+.contact p {
+  text-align: initial;
+  margin-bottom: 0;
+  padding: 0;
+  line-height: 1;
+  padding: 10px 0 10px 0;
+}
+
+.contact h3 {
+  padding: 10px 0 10px 0;
+}
+
+.parroquia {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.parroquia-descripcion {
+  padding-right: 10px;
+  min-width: 400px;
+}
+
+.map iframe {
+  width: 500px;
+  height: 100%;
+  min-height: 400px;
+}
+
+.contact hr {
+  margin-top: 50px;
+  width: 60%;
+}
+
+.img-chama {
+  width: 100%;
+  height: 350px;
+  background-clip: content-box;
+  background-size: cover;
+  /*background-image: url(assets/img/chama.jpg);*/
 }
 
 @media (max-width: 800px) {
