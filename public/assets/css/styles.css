@@ -99,7 +99,7 @@ header {
   z-index: 10;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   color: #fff;
   padding: 35px 100px 0;
@@ -111,6 +111,7 @@ header h2 {
 
 header nav {
   display: flex;
+  flex-wrap: wrap;
 }
 
 header nav li {
@@ -138,6 +139,14 @@ header nav li:last-child {
 
   header h2 {
     margin-bottom: 15px;
+  }
+
+  header nav li {
+    margin: 5px 10px;
+  }
+
+  header nav li:first-child {
+    margin-left: 10px;
   }
 }
 
@@ -428,6 +437,14 @@ header nav li:last-child {
   width: 500px;
   height: 100%;
   min-height: 400px;
+}
+
+@media (max-width: 600px) {
+  .map iframe {
+    width: 400px;
+    height: 100%;
+    min-height: 300px;
+  }
 }
 
 .contact hr {
