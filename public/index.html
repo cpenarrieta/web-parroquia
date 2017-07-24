@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Parroquia Cristo Salvador - Chama Surco, Lima - Peru</title>
+    <script type="text/javascript" src="index.js" ></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
@@ -114,100 +115,174 @@
     <section class="reviews section" id="id-comunidades">
       <h3 class="title">Comunidades y Pastorales</h3>
       <div class="comunidades">
-        <a target="_blank"><div class="type-1">Orden Franciscana Seglar (OFS)</div></a>
-        <a href="https://www.facebook.com/jufraxtosalvador" target="_blank"><div class="type-1">JUFRA</div></a>
-        <a target="_blank"><div class="type-1">Acólitos Franciscanos</div></a>
-        <a target="_blank"><div class="type-2">Emmanuel</div></a>
-        <a href="https://www.facebook.com/g.o.pentecostes" target="_blank"><div class="type-3">Pentecostés</div></a>
-        <a href="https://www.facebook.com/renacer.jesus" target="_blank"><div class="type-3">Renacer</div></a>
-        <a target="_blank"><div class="type-3">Grupo de Oración Padre Pío de Pietrelcina</div></a>
-        <a href="https://www.facebook.com/eje.cristosalvador" target="_blank"><div class="type-4">EJE</div></a>
-        <a href="https://www.facebook.com/epjchama/" target="_blank"><div class="type-4">EPJ</div></a>
-        <a href="https://www.facebook.com/EPCA-Mujeres-Parroquia-Cristo-Salvador-Chama-256421171223552/" target="_blank"><div class="type-4">EPCA Mujeres</div></a>
-        <a href="https://www.facebook.com/epca.cristosalvadorchama" target="_blank"><div class="type-4">EPCA Varones</div></a>
-        <a href="https://www.facebook.com/escogechama/" target="_blank"><div class="type-4">Escoge Familia</div></a>
-        <a target="_blank"><div class="type-6">Llama de Amor</div></a>
-        <a target="_blank"><div class="type-6">Legión de María</div></a>
-        <a target="_blank"><div class="type-6">Hermanos en María</div></a>
-        <a target="_blank"><div class="type-6">Sagrados Corazones de Jesús y María</div></a>
-        <a href="https://www.facebook.com/comunidad.adonai.1" target="_blank"><div class="type-7">Adonai</div></a>
-        <a arget="_blank"><div class="type-7">Matrimonios Unidos en Victoria</div></a>
-        <a target="_blank"><div class="type-7">TAITA DIOS</div></a>
-        <a target="_blank"><div class="type-7">Escuela de San Andrés</div></a>
-        <a target="_blank"><div class="type-8">Pastoral de Liturgia</div></a>
-        <a target="_blank"><div class="type-8">Pastoral Bíblica</div></a>
-        <a target="_blank"><div class="type-8">Pastoral de Formación</div></a>
-        <a href="mailto:matrimonios@pastoral-familiar.com"><div class="type-8">Pastoral Familiar</div></a>
-        <a target="_blank"><div class="type-8">Pastoral Juvenil</div></a>
-        <a target="_blank"><div class="type-8">Pastoral de Proyección Social</div></a>
-        <a target="_blank"><div class="type-8">Pastoral de Evangelización y Misiones</div></a>
-        <a target="_blank"><div class="type-8">Pastoral de Comunicaciones</div></a>
+        <a id="ofs_id" target="_blank"><div class="type-1">Orden Franciscana Seglar (OFS)</div></a>
+        <a id="comite_damas_id" target="_blank"><div class="type-1">Comité de Damas</div></a>
+        <a id="jufra_id" target="_blank"><div class="type-1">JUFRA</div></a>
+        <a id="acolitos_id" target="_blank"><div class="type-1">Acólitos Franciscanos</div></a>
+        <a id="emmanuel_id" target="_blank"><div class="type-2">Emmanuel</div></a>
+        <a id="pentecostes_id" target="_blank"><div class="type-3">Pentecostés</div></a>
+        <a id="renacer_id" target="_blank"><div class="type-3">Renacer</div></a>
+        <a id="padre_pio_id" target="_blank"><div class="type-3">Grupo de Oración Padre Pío de Pietrelcina</div></a>
+        <a id="eje_id" target="_blank"><div class="type-4">EJE</div></a>
+        <a id="epj_id" target="_blank"><div class="type-4">EPJ</div></a>
+        <a id="epjca_mujeres_id" target="_blank"><div class="type-4">EPCA Mujeres</div></a>
+        <a id="epca_varones_id" target="_blank"><div class="type-4">EPCA Varones</div></a>
+        <a id="escoge_id" target="_blank"><div class="type-4">Escoge Familia</div></a>
+        <a id="llama_amor_id" target="_blank"><div class="type-6">Llama de Amor</div></a>
+        <a id="legion_maria_id" target="_blank"><div class="type-6">Legión de María</div></a>
+        <a id="hermanos_maria_id" target="_blank"><div class="type-6">Hermanos en María</div></a>
+        <a id="sagrado_corazon_id" target="_blank"><div class="type-6">Sagrados Corazones de Jesús y María</div></a>
+        <a id="adonai_id" target="_blank"><div class="type-7">Adonai</div></a>
+        <a id="matrimonios_id" arget="_blank"><div class="type-7">Matrimonios Unidos en Victoria</div></a>
+        <a id="taita_id" target="_blank"><div class="type-7">TAITA DIOS</div></a>
+        <a id="pastoral_liturgia_id" target="_blank"><div class="type-8">Pastoral de Liturgia</div></a>
+        <a id="pastoral_formacion_id" target="_blank"><div class="type-8">Pastoral de Formación</div></a>
+        <a id="pastoral_familiar_id" target="_blanck" ><div class="type-8">Pastoral Familiar</div></a>
+        <a id="pastoral_juvenil_id" target="_blank"><div class="type-8">Pastoral Juvenil</div></a>
+        <a id="pastoral_social_id" target="_blank"><div class="type-8">Pastoral de Proyección Social</div></a>
+        <a id="pastoral_evangelizacion_id" target="_blank"><div class="type-8">Pastoral de Evangelización y Misiones</div></a>
+        <a id="pastoral_comunicaciones_id" target="_blank"><div class="type-8">Pastoral de Comunicaciones</div></a>
       </div>
     </section>
 
     <section class="retiros section" id="id-retiros">
-      <h3 class="title">Retiros</h3>
+      <h3 class="title">Calendario</h3>
       <div class="retiros-list">
         <div class="month">
-          <h4 class="month-text">Enero</h4>
-          <div>EPJ</div>
-          <div>Renacer</div>
-        </div>
-        <div class="month">
-          <h4 class="month-text">Febrero</h4>
-          <div>EPJ</div>
-          <div>Renacer</div>
-        </div>
-        <div class="month">
-          <h4 class="month-text">Marzo</h4>
-          <div>EPJ</div>
-          <div>Renacer</div>
-        </div>
-        <div class="month">
-          <h4 class="month-text">Abril</h4>
-          <div>EPJ</div>
-          <div>Renacer</div>
-          <div>EPJ</div>
-          <div>Renacer</div>
-        </div>
-        <div class="month">
-          <h4 class="month-text">Mayo</h4>
-          <div>EPJ</div>
-          <div>Renacer</div>
-        </div>
-        <div class="month">
           <h4 class="month-text">Junio</h4>
-          <div>EPJ</div>
-          <div>Renacer</div>
+          <div>Sab 03 - Vigilia de Pentecostes</div>
+          <div>Dom 04 - Pentecostes</div>
+          <div>Sab 10 - Jornada Unidos en el mismo Espiritu - Past Juvenul</div>
+          <div>Mie 14 - Lectio Divina - Pastoral Biblica</div>
+          <div>Vie 16 - Reunion de coordinadores y corazones</div>
+          <div>Sab 17 - Jovenes para cristo Adonai</div>
+          <div>Dom 18 - Dia del Padre</div>
+          <div>Dom 18 - Corpus Christi - Arzobispado</div>
+          <div>Jue 22 - Té - Comite de Damas</div>
+          <div>Sab 24 - Proyeccion Social</div>
+          <div>Mar 27 - Misa de Sanacion</div>
+          <div>Vie 30 - Retiro Nueva Vida Pentecostes</div>
         </div>
         <div class="month">
           <h4 class="month-text">Julio</h4>
-          <div>EPJ</div>
-          <div>Renacer</div>
+          <div>1,2 - Retiro de Crecimiento Pentecostes</div>
+          <div>7,8 y 9 - Retiro de Confirmacion de Adultos</div>
+          <div>7,8 y 9 - Retiro MUEV</div>
+          <div>7,8 y 9 - Viaje de Misiones Taita Dios</div>
+          <div>10-13 - Semana Liturgica</div>
+          <div>Vie 14 - Reunion de coordinadores y corazones</div>
+          <div>Sab 15 - Jornada JUFRA</div>
+          <div>Dom 16 - Procesion de la virgen del Carmen</div>
+          <div>Jue 20 - Té - Comite de Damas</div>
+          <div>Sab 22 - Proyeccion Social</div>
+          <div>Sab 22 - Jornada de Promocion Vocacional OFS</div>
+          <div>Dom 23 - Jornada de Corazones</div>
+          <div>Mar 25 - Misa de Sanacion</div>
         </div>
         <div class="month">
           <h4 class="month-text">Agosto</h4>
-          <div>EPJ</div>
-          <div>Renacer</div>
+          <div>Mie 02 - La Porciuncula</div>
+          <div>Vie 04 - Dia del Parroco</div>
+          <div>4,5 y 6  - Retiro Interno JUFRA</div>
+          <div>Vie 11 - Santa Clara de Asis</div>
+          <div>Vie 11 - Reunion de coordinadores y corazones</div>
+          <div>11,12 y 13 - Retiro de crecimiento EJE</div>
+          <div>12 y 13 - Jornada de crecimiento Emmanuel</div>
+          <div>14 al 25 - Visita de enfermos</div>
+          <div>Mar 15 - Expositor internacional G.O San Pio</div>
+          <div>18, 19 y 20 - Retiro EPCA Mujeres</div>
+          <div>Sab 19 - Jovenes para cristo ADONAI</div>
+          <div>Vie 25 - San Luis IX de Francia - Patrono de la OFS</div>
+          <div>25 y 26 - Jornada de Novios Pastoral Familiar</div>
+          <div>Sab 26 - Misa de Enfermos</div>
+          <div>Sab 26 - Pastoral Social</div>
+          <div>Sab 26 - Conversatorio de jovenes con el cardenal</div>
+          <div>Sab 26 - Jornada de promocion Vocacional OFS</div>
+          <div>Mar 28 - Misa de Sanacion</div>
+          <div>Mar 30 - Santa Rosa de Lima</div>
+          <div>Jue 31 - Té - Comite de Damas</div>
+        </div>
+        <div class="month">
+          <h4 class="month-text">Setiembre</h4>
+          <div>Vie 01 - Entronizacion de la Biblia</div>
+          <div>1,2 y 3 - Retiro Matrimonisl Pastoral Familiar</div>
+          <div>1,2 y 3 - Retiro Pentecostes</div>
+          <div>1,2 y 3 - Viaje de Misiones taita Dios</div>
+          <div>Dom 03 - Entronizacion de la biblia en las misas</div>
+          <div>04 al 10 - Semana de la Familia</div>
+          <div>8,9 y 10 - Retiro RENACER</div>
+          <div>14 al 17 - EPJ Mujeres</div>
+          <div>Vie 15 - Reunion de coordinadores y corazones</div>
+          <div>Dom 17 - Impresion de las llagas de San Francisco</div>
+          <div>18 al 20 - Taller Biblico</div>
+          <div>20 al 22 - Triduo San Pio - G.O.San Pio</div>
+          <div>21 al 24 - EPJ Varones</div>
+          <div>Sab 23 - San Pio de Pietrelcina</div>
+          <div>Sab 23 - Jovenes para cristo ADONAI</div>
+          <div>Sab 23 - Proyeccion Social</div>
+          <div>Sab 23 - Jornada espiritua EPCA Varones</div>
+          <div>25 al 30 - Inicio novena a San Francico</div>
+          <div>Mar 26 - Misa de Sanacion</div>
+          <div>Jue 28 - Té - Comite de Damas</div>
+          <div>29,30(set) y 1(oct) - Retiro EPCA Varones</div>
+          <div>Sab 30 - San Jeronimo - Dia de la Biblia</div>
+          <div>Sab 30 - Noche de las Creaturas</div>
         </div>
         <div class="month">
           <h4 class="month-text">Octubre</h4>
-          <div>EPJ</div>
-          <div>Renacer</div>
+          <div>01 y 02 - Novena Franciscana</div>
+          <div>Mar 03 - Transito de San Francisco</div>
+          <div>Mie 04 - Fiesta de San Francisco</div>
+          <div>Dom 08 - Bendicion de Mascotas</div>
+          <div>Dom 08 - Almuerzo Parroquial</div>
+          <div>Vi 13 - Reunion de coordinadores y corazones</div>
+          <div>13, 14 y 15 - Retiro confirmacion Jovenes</div>
+          <div>Dom 15 - Capitulo local JUFRA</div>
+          <div>19 al 22 - Curso Internacional ESSA</div>
+          <div>20, 21 y 22 - Retiro Confirmacion Jovenes</div>
+          <div>Jue 26 - Té - Comite de Damas</div>
+          <div>Sab 28 - Proyeccion Social</div>
+          <div>Sab 28 - Jornada de Vocaciones - Pastoral Juvenil</div>
+          <div>Mar 31 - Misa de Sanacion</div>
         </div>
         <div class="month">
           <h4 class="month-text">Noviembre</h4>
-          <div>EPJ</div>
-          <div>Renacer</div>
-          <div>EPJ</div>
-          <div>Renacer</div>
-          <div>EPJ</div>
-          <div>Renacer</div>
+          <div>Mie 01 - Dia de todos los Santos</div>
+          <div>Mie 01 - Inicio Campaña Navideña</div>
+          <div>03, 04 y 05 - Viaje Misiones Taita Dios</div>
+          <div>Dom 01 - Primer ENE</div>
+          <div>10, 11 y 12 - Retiro MUEV</div>
+          <div>Sab 11 - Ceremonia de Confirmacion</div>
+          <div>Dom 12 - Segundo ENE</div>
+          <div>Vie 17 - Santa Isabel de Hungria Patrona de la OFS</div>
+          <div>17,18 y 19 - Retiro ESCOGE</div>
+          <div>Sab 18 - Jovenes para Cristo ADONAI</div>
+          <div>18 al 26 - Novena a la medalla milagrosa</div>
+          <div>Jue 23 - Té - Comite de Damas</div>
+          <div>Vie 24 - Reunion de coordinadores y corazones</div>
+          <div>24 y 25 - Jornada de Novios - Pastoral Familiar</div>
+          <div>Sab 25 - Jornada llama de Amor</div>
+          <div>Sab 25 - Proyeccion Social</div>
+          <div>27 al 29 - Curso Biblico - Pastoral Biblica</div>
+          <div>Mar 28 - Misa de Sanacion</div>
+          <div>Mie 29 - Dia de todos los Santos Franciscanos</div>
         </div>
         <div class="month">
           <h4 class="month-text">Diciembre</h4>
-          <div>EPJ</div>
-          <div>Renacer</div>
+          <div>Vie 08 - Dia de la Inmaculada Concepcion</div>
+          <div>7 al 9 - Triduo a la Virgen a Nstra Sra de Loreto</div>
+          <div>Vie 08 - Ceremonia Primera Comunion</div>
+          <div>Sab 09 - Jovenes para Cristo ADONAI</div>
+          <div>Dom 10 - Nuestra Señora Virgen de Loreto</div>
+          <div>Dom 10 - Bazar Navideño</div>
+          <div>Mar 12 - Dia de la Virgen de Guadalupe</div>
+          <div>Jue 14 - Té - Comite de Damas</div>
+          <div>16 y 17 - Reparto de regalos Campaña Navideña</div>
+          <div>Sab 16 - Proyeccion Social</div>
+          <div>Dom 24 - Misa Noche Buena</div>
+          <div>Lun 25 - Navidad</div>
+          <div>Mie 27 - Compartir Navideño</div>
+          <div>Dom 31 - Misa de Accion de Gracias Fin de Año</div>
         </div>
       </div>
     </section>
@@ -261,9 +336,9 @@
       <div class="links-list">
         <div><a target="_blank">Plan Pastoral</a></div>
         <div><a target="_blank">Boletin Amigo</a></div>
-        <div><a href="https://www.aciprensa.com/" target="_blank">Aci Prensa</a></div>
         <div><a href="http://catholic-link.com/" target="_blank">Catholic Link</a></div>
         <div><a href="http://www.corazones.org/" target="_blank">Corazones.org</a></div>
+        <div><a href="https://www.aciprensa.com/" target="_blank">Aci Prensa</a></div>
       </div>
     </section>
 
@@ -282,6 +357,24 @@
       </ul>
       <p>2017 - Lima - Perú</p>
     </footer>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3><strong id="modal-content-title"></strong></h3>
+        <p id="modal-content-descripcion"></p>
+        <p id="modal-content-horario"></p>
+        <br/>
+        <p><strong>Responsable</strong></p>
+        <p id="modal-content-responsable"></p>
+        <p id="modal-content-email"></p>
+        <br/>
+        <h4><a id="modal-content-facebook" href="" target="_blank" class="link">facebook</a></h4>
+        <div class="youtube-container">
+          <iframe id="modal-content-youtube" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
 
   </body>
 </html>
