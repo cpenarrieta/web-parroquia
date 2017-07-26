@@ -28,6 +28,21 @@ a:hover {
   opacity: 1;
 }
 
+a:hover .type-1, 
+a:hover .type-2, 
+a:hover .type-3, 
+a:hover .type-4, 
+a:hover .type-5, 
+a:hover .type-6,
+a:hover .type-7,
+a:hover .type-8 {
+  border-radius: 50px;
+  -moz-transition: all .9s;
+  -o-transition: all .9s;
+  -webkit-transition: all .9s;
+  transition: all .9s;
+}
+
 a.btn {
   color: #fff;
   border-radius: 4px;
