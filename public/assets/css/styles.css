@@ -128,6 +128,10 @@ header h2 {
 header nav {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgba(158, 158, 158, 0.60);
+  border-radius: 5px;
+  padding: 5px;
 }
 
 header nav li {
@@ -200,7 +204,7 @@ header nav li:last-child {
 .hero h1 {
   font: bold 60px 'Open Sans', sans-serif;
   margin-bottom: 15px;
-  background-color: rgba(158, 158, 158, 0.46);
+  background-color: rgba(158, 158, 158, 0.60);
   padding: 15px;
   border-radius: 5px;
 }
