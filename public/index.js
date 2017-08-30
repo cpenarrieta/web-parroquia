@@ -317,8 +317,8 @@ document.addEventListener('DOMContentLoaded', function(event) {
     modal_content_title.innerHTML = 'Pastoral de Formacion';
     modal_content_descripcion.innerHTML = 'Es la instancia dentro de la organizacion pastoral, que velara por la formacion integral de todos los grupos y comunidades, dicha pastoral incluye la pastoral biblica';
     modal_content_horario.innerHTML = 'Lunes de 8:00pm a 9:45pm - Salon San Leopoldo Mandic';
-    modal_content_responsable.innerHTML = 'Carlos Perez - 988109877';
-    modal_content_email.innerHTML = 'jcarlos_p77@yahoo.com';
+    modal_content_responsable.innerHTML = '';
+    modal_content_email.innerHTML = '';
     modal_content_facebook.innerHTML = '';
     modal_content_facebook.href = '';
     modal_content_youtube.height = 0;
