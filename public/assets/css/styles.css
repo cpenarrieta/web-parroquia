@@ -376,7 +376,7 @@ header nav li:last-child {
   opacity: 0.8;
 }
 
-.formularios div {
+.formularios .type {
   height: 200px;
   width: 250px;
   text-align: center;
@@ -391,6 +391,9 @@ header nav li:last-child {
   flex-direction: column;
   color: white;
   font-size: x-large;
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
 }
 
 .type-1 {
@@ -664,4 +667,10 @@ body .section:nth-child(odd) {
     position: relative;
     left: -10px;
   }
+}
+
+.background-text {
+  background-color: rgba(158, 158, 158, 0.71);
+  border-radius: 5px;
+  padding: 5px;
 }
