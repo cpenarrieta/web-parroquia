@@ -184,6 +184,21 @@ document.addEventListener('DOMContentLoaded', function(event) {
     modal.style.display = "block";
   }
 
+  var san_andres_id = document.getElementById("san_andres_id");
+  san_andres_id.onclick = function(event) {
+    event.preventDefault();
+    modal_content_title.innerHTML = 'Escuela de San Andrés';
+    modal_content_descripcion.innerHTML = 'Partimos de la gran comisión confiada por el Señor Jesús a sus discípulos: "Vayan por todo el mundo y proclamen la Buena Nuevas toda la creación": Mc 16,15';
+    modal_content_horario.innerHTML = '';
+    modal_content_responsable.innerHTML = '992 795 637';
+    modal_content_email.innerHTML = 'sanandreslimacristosalvador@hotmail.com';
+    modal_content_facebook.innerHTML = 'facebook';
+    modal_content_facebook.href = 'https://www.facebook.com/sanandres.cristosalvador/';
+    modal_content_youtube.height = youtube_height;
+    modal_content_youtube.src = 'https://www.youtube.com/embed/a--IyBQOF2w'
+    modal.style.display = "block";
+  }
+
   var llama_amor_id = document.getElementById("llama_amor_id");
   llama_amor_id.onclick = function(event) {
     event.preventDefault();
