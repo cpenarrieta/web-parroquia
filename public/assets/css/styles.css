@@ -138,6 +138,10 @@ header nav li {
   margin: 0 15px;
 }
 
+header nav li:hover {
+  color: #2196F3;
+}
+
 header nav li:first-child {
   margin-left: 0;
 }
