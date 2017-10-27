@@ -1,8 +1,14 @@
 document.addEventListener('DOMContentLoaded', function(event) {
   var modal = document.getElementById('myModal');
-  var span = document.getElementsByClassName("close")[0];  
+  var modalInitial = document.getElementById('myModal-initial');
+  var span = document.getElementsByClassName("close")[0];
+  var spanInitial = document.getElementsByClassName("close")[1];  
   span.onclick = function() {
     modal.style.display = "none";
+  }
+  
+  spanInitial.onclick = function() {
+    modalInitial.style.display = "none";
   }
 
   var youtube_height = 315;
@@ -409,9 +415,14 @@ document.addEventListener('DOMContentLoaded', function(event) {
     modal.style.display = "block";
   }
 
+  
   window.onclick = function(event) {
     if (event.target === modal) {
       modal.style.display = "none";
+    } else if (event.target === modalInitial) {
+      modalInitial.style.display = "none";
     }
   }
+
+  modalInitial.style.display = "block";
 });
