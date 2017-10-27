@@ -689,6 +689,14 @@ body .section:nth-child(odd) {
     position: relative;
     left: -10px;
   }
+
+  .type-initial {
+    max-height: 300px;
+  }
+
+  .initial-modal {
+    margin: 50% auto;
+  }
 }
 
 .background-text {
