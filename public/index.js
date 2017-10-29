@@ -448,4 +448,21 @@ document.addEventListener('DOMContentLoaded', function(event) {
       return false;
     }
   }
+
+  const hashOptions = {
+    "#id-nosotros": true,
+    "#id-sacramentos": true,
+    "#id-comunidades": true,
+    "#id-retiros": true,
+    "#id-formularios": true,
+    "#id-contactenos": true,
+  }
+
+  document.querySelector('#scroll-into-section').addEventListener('click', function(e) {
+    const target = e.target && e.target.hash;
+    if (target in hashOptions) {
+      e.preventDefault();
+      document.querySelector(target).scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
 });
