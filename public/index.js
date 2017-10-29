@@ -2,12 +2,15 @@ document.addEventListener('DOMContentLoaded', function(event) {
   var modal = document.getElementById('myModal');
   var modalInitial = document.getElementById('myModal-initial');
   var span = document.getElementsByClassName("close")[0];
-  var spanInitial = document.getElementsByClassName("close")[1];  
+  var spanInitial = document.getElementsByClassName("close")[1];
+  var initialModalDisplayed = true;
+
   span.onclick = function() {
     modal.style.display = "none";
   }
   
   spanInitial.onclick = function() {
+    initialModalDisplayed = false;
     modalInitial.style.display = "none";
   }
 
@@ -414,15 +417,35 @@ document.addEventListener('DOMContentLoaded', function(event) {
     modal_content_youtube.height = 0;
     modal.style.display = "block";
   }
-
   
   window.onclick = function(event) {
     if (event.target === modal) {
       modal.style.display = "none";
     } else if (event.target === modalInitial) {
       modalInitial.style.display = "none";
+      initialModalDisplayed = false;
     }
   }
 
   modalInitial.style.display = "block";
+
+  setScrolledClass();
+  window.addEventListener("scroll", setScrolledClass, false);
+
+  function setScrolledClass() {
+    if (isScrolled() == true) {
+      document.body.classList.add("js-has-scrolled");
+    } else {
+      document.body.classList.remove("js-has-scrolled");
+    }
+  }
+
+  function isScrolled() {
+    var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    if (scrollTop > 5) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 });
