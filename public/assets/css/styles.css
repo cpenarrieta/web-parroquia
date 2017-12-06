@@ -286,7 +286,7 @@ ul.grid {
   }
 }
 
-.comunidades, .formularios {
+.comunidades, .formularios, .amigos {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -309,7 +309,7 @@ ul.grid {
   color: white;
 }
 
-.comunidades > div:hover, .formularios > div:hover {
+.comunidades > div:hover, .formularios > div:hover, .amigos > div:hover  {
   opacity: 0.8;
 }
 
@@ -323,6 +323,24 @@ ul.grid {
   margin-right: 15px;
   padding-left: 10px;
   padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-size: x-large;
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
+}
+
+.amigos .type {
+  height: 200px;
+  width: 300px;
+  text-align: center;
+  border: 1px solid #e9e9e9;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-right: 15px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -632,6 +650,10 @@ body .section:nth-child(odd) {
   background-color: rgba(158, 158, 158, 0.71);
   border-radius: 5px;
   padding: 5px;
+}
+
+.background-text.amigo-text {
+  margin: 10px;
 }
 
 
