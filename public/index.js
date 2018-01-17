@@ -44,8 +44,8 @@ document.addEventListener('DOMContentLoaded', function(event) {
     modal_content_title.innerHTML = 'Comité de Damas';
     modal_content_descripcion.innerHTML = 'Señoras activas que crecen espiritualmente en comunidad y trabajan por la solidaridad y los mas necesitados.';
     modal_content_horario.innerHTML = 'Martes de 10:00am a 11:30am - Salón Parroquial';
-    modal_content_responsable.innerHTML = 'Rosita Elias 273-6867 / 994600621';
-    modal_content_email.innerHTML = 'rositaelias1@gmail.com';
+    modal_content_responsable.innerHTML = 'Lucha Arciniega 975262274';
+    modal_content_email.innerHTML = '';
     modal_content_facebook.innerHTML = '';
     modal_content_youtube.height = 0;
     modal.style.display = "block";
@@ -98,8 +98,8 @@ document.addEventListener('DOMContentLoaded', function(event) {
     modal_content_title.innerHTML = 'Renacer Con Jesús';
     modal_content_descripcion.innerHTML = 'Comunidad que evangeliza a través de la alabanza gozosa, prédica y oración.';
     modal_content_horario.innerHTML = 'Jueves de 8:00pm a 9:45pm - Salón Parroquial';
-    modal_content_responsable.innerHTML = 'Magaly Gaona - 998781949';
-    modal_content_email.innerHTML = 'magalygaona@hotmail.com';
+    modal_content_responsable.innerHTML = 'Malú Gonzales - 998673808';
+    modal_content_email.innerHTML = 'malugonzales@yahoo.com.mx';
     modal_content_facebook.innerHTML = 'facebook';
     modal_content_facebook.href = 'https://www.facebook.com/renacer.jesus';
     modal_content_youtube.height = 0;
@@ -141,8 +141,8 @@ document.addEventListener('DOMContentLoaded', function(event) {
     modal_content_title.innerHTML = 'EPJ';
     modal_content_descripcion.innerHTML = 'Dirigido a jóvenes de 19 a 27 años que buscan afianar su ideal de vida cristiana.';
     modal_content_horario.innerHTML = 'Sábados de 4:00pm a 7:00pm - Salón San Pio de Pietrelcina (2do piso)';
-    modal_content_responsable.innerHTML = 'Giovanna Rivas Valverde - 982336432';
-    modal_content_email.innerHTML = 'gmrc_90@hotmail.com';
+    modal_content_responsable.innerHTML = 'Milagros Gutierrez - 992027404';
+    modal_content_email.innerHTML = 'milagrosgutierrezbonilla@gmail.com';
     modal_content_facebook.innerHTML = 'facebook';
     modal_content_facebook.href = 'https://www.facebook.com/epjchama/';
     modal_content_youtube.height = 0;
@@ -169,8 +169,8 @@ document.addEventListener('DOMContentLoaded', function(event) {
     modal_content_title.innerHTML = 'EPCA Varones';
     modal_content_descripcion.innerHTML = 'Para varones que, luego de vivir el retiro EPCA, deciden perseverar en comunidad para crecer.';
     modal_content_horario.innerHTML = 'Miercoles de 9:00pm a 9:45pm - Salón San Francisco';
-    modal_content_responsable.innerHTML = 'Juan Betancur - 950959287';
-    modal_content_email.innerHTML = 'betancourjuan@yahoo.com';
+    modal_content_responsable.innerHTML = 'Andrés Manrique - 999097013';
+    modal_content_email.innerHTML = 'anhermanpal@gmail.com';
     modal_content_facebook.innerHTML = 'facebook';
     modal_content_facebook.href = 'https://www.facebook.com/epca.cristosalvadorchama';
     modal_content_youtube.height = youtube_height;
@@ -253,11 +253,11 @@ document.addEventListener('DOMContentLoaded', function(event) {
   var sagrado_corazon_id = document.getElementById("sagrado_corazon_id");
   sagrado_corazon_id.onclick = function(event) {
     event.preventDefault();
-    modal_content_title.innerHTML = 'Sagrado s Corazones de Jesus y Maria';
+    modal_content_title.innerHTML = 'Sagrados Corazones de Jesus y Maria';
     modal_content_descripcion.innerHTML = 'Grupo que evangeliza y fomenta la devocion y la consagracion a los corazones de Jesys y Maria en las familias';
     modal_content_horario.innerHTML = 'Miércoles de 7:00pm a 9:00pm - Salón San Crispin';
-    modal_content_responsable.innerHTML = 'Leoncio Vejarano - 984345061';
-    modal_content_email.innerHTML = 'levesa40@gmail.com';
+    modal_content_responsable.innerHTML = 'Maximo Valdivia - 981475888';
+    modal_content_email.innerHTML = 'hpt_consultores@yahoo.com';
     modal_content_facebook.innerHTML = '';
     modal_content_facebook.href = '';
     modal_content_youtube.height = 0;
@@ -270,8 +270,8 @@ document.addEventListener('DOMContentLoaded', function(event) {
     modal_content_title.innerHTML = 'Adonai';
     modal_content_descripcion.innerHTML = 'Comunidad que se encarga de la evangelizacion a los jovenes a traves de eventos (Talleres - Jornadas)';
     modal_content_horario.innerHTML = 'Sabados de 4:00pm a 9:00pm - Sanlon San Fidel (Virgen de Loreto)';
-    modal_content_responsable.innerHTML = 'Mayel Medina - 957284536';
-    modal_content_email.innerHTML = 'maryelmedinat@hotmail.com';
+    modal_content_responsable.innerHTML = 'Gabriela Ramirez - 991327439';
+    modal_content_email.innerHTML = 'gr.uyeno@mail.com';
     modal_content_facebook.innerHTML = 'facebook';
     modal_content_facebook.href = 'https://www.facebook.com/comunidad.adonai.1';
     modal_content_youtube.height = 0;
@@ -312,7 +312,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
     modal_content_title.innerHTML = 'Pastoral de Liturgia';
     modal_content_descripcion.innerHTML = 'Esta encargada de la animacion liturgica en las celebraciones eucaristicas de nuestra comunidad parroquial. Esta pastoral incluye en su actividad a la pastoral de salud, que se encarga de la visita a los engermos,';
     modal_content_horario.innerHTML = '';
-    modal_content_responsable.innerHTML = 'Jorge Peña - 999902228';
+    modal_content_responsable.innerHTML = 'Javier Peña - 999902228';
     modal_content_email.innerHTML = 'javierpd60@hotmail.com';
     modal_content_facebook.innerHTML = '';
     modal_content_facebook.href = '';
@@ -340,8 +340,8 @@ document.addEventListener('DOMContentLoaded', function(event) {
     modal_content_title.innerHTML = 'Pastoral Familiar';
     modal_content_descripcion.innerHTML = 'Esta encargada de evangelizar y promover a la familia en su formacion como escuela de fe y valorar humanos en todas las etapas y situacione de su existencia para lograr hacer de ella una verdadera Iglesia domestica.';
     modal_content_horario.innerHTML = '';
-    modal_content_responsable.innerHTML = 'Billy Segura 998676868 / Jessica Segura 995517909';
-    modal_content_email.innerHTML = 'bsegura@sifuentesolachea.com / qjessicasegura@hotmail.com';
+    modal_content_responsable.innerHTML = 'Manuel Palacios 998469243 / Lili de Palacios 961588019';
+    modal_content_email.innerHTML = 'manpalmen@hotmail.com / liliananoda@gmail.com';
     modal_content_facebook.innerHTML = 'facebook';
     modal_content_facebook.href = 'https://www.facebook.com/Pastoral-Familiar-Cristo-Salvador-570136459736530/';
     modal_content_youtube.height = 0;
@@ -354,8 +354,8 @@ document.addEventListener('DOMContentLoaded', function(event) {
     modal_content_title.innerHTML = 'Pastoral Juvenil';
     modal_content_descripcion.innerHTML = 'Se encarga de coordinar y promover todas las actividades para los jovenes de la parroquia';
     modal_content_horario.innerHTML = '';
-    modal_content_responsable.innerHTML = 'Maria Andrea Escobar 966426763 / Andres Paredes 966747643';
-    modal_content_email.innerHTML = 'ma.andrea.escobar@gmail.com / smok_11564@hotmail.com';
+    modal_content_responsable.innerHTML = '';
+    modal_content_email.innerHTML = 'pj.cristosalvador@gmail.com';
     modal_content_facebook.innerHTML = '';
     modal_content_facebook.href = '';
     modal_content_youtube.height = 0;
@@ -368,8 +368,8 @@ document.addEventListener('DOMContentLoaded', function(event) {
     modal_content_title.innerHTML = 'Pastoral Social';
     modal_content_descripcion.innerHTML = 'Esta encargada de gestionar y dirigir las actividades de proyeccion social en nuestra parroquia. Su trabajo se enmarca en el conocimiento de la doctrina social de la iglesia, en su busqueda del respeto y promocion de la persona humana como creacion divina.';
     modal_content_horario.innerHTML = '';
-    modal_content_responsable.innerHTML = 'Carlos y Lorena Velit - 990999366';
-    modal_content_email.innerHTML = 'locata30@hotmail.com';
+    modal_content_responsable.innerHTML = 'Edgar Delgado 992143213 / Paola Somoza 997688707';
+    modal_content_email.innerHTML = 'edgar.delgado@mail.com / tpsa1302@mail.com';
     modal_content_facebook.innerHTML = '';
     modal_content_facebook.href = '';
     modal_content_youtube.height = 0;
@@ -410,8 +410,8 @@ document.addEventListener('DOMContentLoaded', function(event) {
     modal_content_title.innerHTML = 'Juventud Franciscana - JUFRA';
     modal_content_descripcion.innerHTML = 'Jovenes que viven y crecen en el ideal de la espiritualidad franciscana.';
     modal_content_horario.innerHTML = 'Sabados de 6:00pm a 9:30pm - Salon Santa Clara de Asis (3er piso)';
-    modal_content_responsable.innerHTML = 'Maria Gracia Abregu - 949706381';
-    modal_content_email.innerHTML = 'mgabregu@gmail.com';
+    modal_content_responsable.innerHTML = 'Andrea Fallaque C. - 991181212';
+    modal_content_email.innerHTML = 'andrea.fallaque@gmail.com';
     modal_content_facebook.innerHTML = '';
     modal_content_facebook.href = '';
     modal_content_youtube.height = 0;
