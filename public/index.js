@@ -3,12 +3,12 @@ document.addEventListener('DOMContentLoaded', function(event) {
   var modalInitial = document.getElementById('myModal-initial');
   var span = document.getElementsByClassName("close")[0];
   var spanInitial = document.getElementsByClassName("close")[1];
-  var initialModalDisplayed = false;
+  var initialModalDisplayed = true;
 
   span.onclick = function() {
     modal.style.display = "none";
   }
-  
+
   spanInitial.onclick = function() {
     initialModalDisplayed = false;
     modalInitial.style.display = "none";
@@ -417,7 +417,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
     modal_content_youtube.height = 0;
     modal.style.display = "block";
   }
-  
+
   window.onclick = function(event) {
     if (event.target === modal) {
       modal.style.display = "none";
