@@ -394,7 +394,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
   pastoral_comunicaciones_id.onclick = function(event) {
     event.preventDefault();
     modal_content_title.innerHTML = 'Pastoral de Comunicaciones';
-    modal_content_descripcion.innerHTML = 'Es la encargada de dar a conocer los mensajes de la iglesis e informar las actividades de la parroquia a los miembros de la comunidad parriquial: comunidades, sectores y fieles en general, a traves de medios de comunicacion fisicos y virtuales.';
+    modal_content_descripcion.innerHTML = 'Es la encargada de dar a conocer los mensajes de la iglesia e informar las actividades de la parroquia a los miembros de la comunidad parriquial: comunidades, sectores y fieles en general, a traves de medios de comunicacion fisicos y virtuales.';
     modal_content_horario.innerHTML = '';
     modal_content_responsable.innerHTML = 'Mario Olivera - 981527887';
     modal_content_email.innerHTML = 'oliveraalberto@yahoo.com';
