@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
   var modalInitial = document.getElementById('myModal-initial');
   var span = document.getElementsByClassName("close")[0];
   var spanInitial = document.getElementsByClassName("close")[1];
-  var initialModalDisplayed = true;
+  var initialModalDisplayed = false;
 
   span.onclick = function() {
     modal.style.display = "none";
